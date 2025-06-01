@@ -25,7 +25,18 @@ To write a Python program that demonstrates **operator overloading** by overload
 ---
 
 ## 💻 Program
-
+```
+class saveetha:
+    def __init__(self,val):
+        self.val=val
+    def __gt__(self,other):
+        return self.val<other.val
+ob1=saveetha(90)
+ob2=saveetha(80)
+print(ob1<ob2)
+```
 ## Output
+![image](https://github.com/user-attachments/assets/58c304ef-1156-47c7-b8ac-86a4879130c0)
 
 ## Result
+Thus  the program has been successfully executed.
